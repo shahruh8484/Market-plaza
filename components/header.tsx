@@ -1,9 +1,9 @@
-'use client'
+"use client"
 
-import { Search, ShoppingCart, Menu, User } from 'lucide-react'
-import { Button } from '@/components/ui/button'
-import { Input } from '@/components/ui/input'
-import { useState } from 'react'
+import { Search, ShoppingCart, Menu, User } from "lucide-react"
+import { Button } from "@/components/ui/button"
+import { Input } from "@/components/ui/input"
+import { useState } from "react"
 
 export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -15,9 +15,7 @@ export function Header() {
           {/* Logo */}
           <div className="flex items-center gap-8">
             <a href="/" className="flex items-center gap-2">
-              <div className="text-xl font-serif font-semibold tracking-tight">
-                Market Plaza
-              </div>
+              <div className="text-xl font-serif font-semibold tracking-tight">Market Plaza</div>
             </a>
 
             {/* Desktop Navigation */}
@@ -28,9 +26,6 @@ export function Header() {
               <a href="#featured" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
                 Featured
               </a>
-              <a href="#deals" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                Deals
-              </a>
             </nav>
           </div>
 
@@ -38,11 +33,7 @@ export function Header() {
           <div className="hidden md:flex flex-1 max-w-md mx-8">
             <div className="relative w-full">
               <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
-              <Input
-                type="search"
-                placeholder="Search products..."
-                className="w-full pl-10"
-              />
+              <Input type="search" placeholder="Search products..." className="w-full pl-10" />
             </div>
           </div>
 
@@ -72,11 +63,7 @@ export function Header() {
         <div className="md:hidden pb-4">
           <div className="relative">
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
-            <Input
-              type="search"
-              placeholder="Search products..."
-              className="w-full pl-10"
-            />
+            <Input type="search" placeholder="Search products..." className="w-full pl-10" />
           </div>
         </div>
       </div>
@@ -90,9 +77,6 @@ export function Header() {
             </a>
             <a href="#featured" className="text-sm hover:text-secondary transition-colors">
               Featured
-            </a>
-            <a href="#deals" className="text-sm hover:text-secondary transition-colors">
-              Deals
             </a>
             <a href="#account" className="text-sm hover:text-secondary transition-colors">
               My Account
