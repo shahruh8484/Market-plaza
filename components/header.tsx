@@ -1,6 +1,6 @@
 "use client"
 
-import { Search, ShoppingCart, Menu, User } from "lucide-react"
+import { Search, Menu } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { useState } from "react"
@@ -39,15 +39,6 @@ export function Header() {
 
           {/* Right Actions */}
           <div className="flex items-center gap-2">
-            <Button variant="ghost" size="icon" className="hidden md:flex">
-              <User className="h-5 w-5" />
-            </Button>
-            <Button variant="ghost" size="icon" className="relative">
-              <ShoppingCart className="h-5 w-5" />
-              <span className="absolute -top-1 -right-1 h-4 w-4 rounded-full bg-secondary text-secondary-foreground text-xs flex items-center justify-center">
-                0
-              </span>
-            </Button>
             <Button
               variant="ghost"
               size="icon"
@@ -77,9 +68,6 @@ export function Header() {
             </a>
             <a href="#featured" className="text-sm hover:text-secondary transition-colors">
               Featured
-            </a>
-            <a href="#account" className="text-sm hover:text-secondary transition-colors">
-              My Account
             </a>
           </nav>
         </div>
