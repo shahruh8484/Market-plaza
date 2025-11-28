@@ -180,14 +180,14 @@ const products = [
   },
   {
     id: 15,
-    name: "Hanes Men's Ecosmart Fleece Sweatshirt",
+    name: "e.l.f. Power Grip Primer",
     category: "Beauty & Personal Care",
-    price: 12.0,
+    price: 10.0,
     rating: 4.5,
-    reviews: 67890,
-    image: "https://m.media-amazon.com/images/I/81D+bCgn8hL._AC_SX569_.jpg",
-    link: "https://www.amazon.com/Hanes-EcoSmart-Fleece-Sweatshirt-Stonewashed/dp/B0721C21RJ?&linkCode=ll1&tag=marketplaza0b-20&linkId=abcdef6789012345abcdef67890&language=en_US&ref_=as_li_ss_tl",
-    description: "Classic crewneck sweatshirt made with eco-friendly fleece fabric for everyday comfort",
+    reviews: 45678,
+    image: "https://m.media-amazon.com/images/I/61Ni3QOXKUL._SL1500_.jpg",
+    link: "https://www.amazon.com/l-f-Power-Grip-Primer-Enhancing/dp/B084Q5CQS9?&linkCode=ll1&tag=marketplaza0b-20&linkId=818d3797e1b4495aaa0287566855caf8&language=en_US&ref_=as_li_ss_tl",
+    description: "Gel-based face primer with a tacky texture that grips makeup for long-lasting wear",
   },
 
   // Clothing, Shoes & Jewelry

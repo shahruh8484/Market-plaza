@@ -37,7 +37,7 @@ export const products = [
     rating: 4.6,
     reviews: 8912,
     image: "https://m.media-amazon.com/images/I/71B2hSrvyZL._AC_SY450_.jpg",
-    link: "https://www.amazon.com/amazon-fire-tv-stick-4K-select/dp/B0C6W3D4RM?&linkCode=ll1&tag=marketplaza0b-20&linkId=818d3797e1b4495aaa0287566855caf8&language=en_US&ref_=as_li_ss_tl",
+    link: "https://www.amazon.com/amazon-fire-tv-stick-4K-select/dp/B0C6W3D4RM?&linkCode=ll1&tag=marketplaza0b-20&linkId=81d83797e1b4495aaa0287566855caf8&language=en_US&ref_=as_li_ss_tl",
     description:
       "Stream in stunning 4K Ultra HD with support for Dolby Vision, HDR10+, and immersive Dolby Atmos audio",
     longDescription:
@@ -256,18 +256,18 @@ export const products = [
   },
   {
     id: 15,
-    name: "Mielle Organics Rosemary Mint Scalp & Hair Strengthening Oil",
+    name: "e.l.f. Power Grip Primer",
     category: "Beauty & Personal Care",
-    price: 9.97,
+    price: 10.0,
     rating: 4.5,
     reviews: 45678,
-    image: "https://m.media-amazon.com/images/I/71dcnvhh1EL._SX679_.jpg",
-    link: "https://www.amazon.com/Mielle-Rosemary-Mint-Scalp-Strengthening/dp/B07N7PK9QK?&linkCode=ll1&tag=marketplaza0b-20&linkId=2c9c5ce86e79f23caa01ab0d4bdc419b&language=en_US&ref_=as_li_ss_tl",
-    description: "Nourishing scalp and hair oil with biotin, rosemary and mint for strengthening and growth",
+    image: "https://m.media-amazon.com/images/I/61Ni3QOXKUL._SL1500_.jpg",
+    link: "https://www.amazon.com/l-f-Power-Grip-Primer-Enhancing/dp/B084Q5CQS9?&linkCode=ll1&tag=marketplaza0b-20&linkId=818d3797e1b4495aaa0287566855caf8&language=en_US&ref_=as_li_ss_tl",
+    description: "Gel-based face primer with a tacky texture that grips makeup for long-lasting wear",
     longDescription:
-      "Nutrient-rich scalp and hair strengthening oil infused with biotin and over 30 essential oils including rosemary and mint. Helps improve circulation to the scalp, strengthens hair, and promotes a healthy scalp environment for optimal hair growth.",
-    features: ["Biotin enriched", "Rosemary & mint", "30+ essential oils", "Scalp stimulation"],
-    specs: { Size: "2 oz", Type: "Hair Oil", Ingredients: "Natural", Certified: "Organic" },
+      "Gel-based face primer with a tacky texture that grips makeup for long-lasting wear, creating a smooth canvas for foundation. Infused with hydrating ingredients like hyaluronic acid and vitamin E.",
+    features: ["Gripping formula", "Long-lasting wear", "Smooths skin", "Hydrating"],
+    specs: { Size: "1.01 oz", Type: "Face Primer", Finish: "Matte", Vegan: "Yes" },
   },
 
   // Clothing, Shoes & Jewelry
