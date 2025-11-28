@@ -2,18 +2,32 @@ export const products = [
   // Electronics
   {
     id: 1,
-    name: "Like-New Echo Dot (5th Gen, 2022 release)",
+    name: "Amazon Echo Studio",
     category: "Electronics",
-    price: 49.99,
+    price: 199.99,
     rating: 4.7,
-    reviews: 15234,
-    image: "https://m.media-amazon.com/images/I/71W2eDGsAJL._AC_SX679_.jpg",
-    link: "",
-    description: "Smart speaker with Alexa featuring vibrant sound, voice control, and seamless smart home integration",
+    reviews: 28542,
+    image: "https://m.media-amazon.com/images/I/71BRtVq+uWL._AC_SL1500_.jpg",
+    link: "https://www.amazon.com/dp/B0FBHDQ94L?th=1&linkCode=ll1&tag=marketplaza0b-20&linkId=4cd3efdb787ed10d584a3acabde6d449&language=en_US&ref_=as_li_ss_tl",
+    description:
+      "Premium smart speaker with immersive, room-filling sound, spatial audio processing, and Alexa voice control for the ultimate listening experience",
     longDescription:
-      "Smart speaker with Alexa featuring vibrant sound, voice control, and seamless smart home integration. Control your smart home devices, play music, answer questions, and more with just your voice.",
-    features: ["Alexa voice control", "Improved audio quality", "Smart home hub", "Music streaming"],
-    specs: { Brand: "Amazon", Model: "Echo Dot 5th Gen", Connectivity: "Wi-Fi, Bluetooth", Color: "Charcoal" },
+      "Amazon Echo Studio delivers studio-quality sound with five strategically positioned speakers for powerful bass, dynamic midrange, and crisp highs. Featuring Dolby Atmos and spatial audio processing technology, it adapts to any room's acoustics for an immersive 3D audio experience. Control your music, smart home, and more with Alexa.",
+    features: [
+      "Dolby Atmos spatial audio",
+      "5 directional speakers",
+      "Automatic room adaptation",
+      "Alexa built-in",
+      "Smart home hub",
+      "Hi-res lossless audio",
+    ],
+    specs: {
+      Brand: "Amazon",
+      Model: "Echo Studio",
+      Connectivity: "Wi-Fi, Bluetooth, Zigbee",
+      Color: "Charcoal",
+      Weight: "7.7 lbs",
+    },
   },
   {
     id: 2,

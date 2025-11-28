@@ -8,14 +8,15 @@ const products = [
   // Electronics
   {
     id: 1,
-    name: "Like-New Echo Dot (5th Gen, 2022 release)",
+    name: "Amazon Echo Studio",
     category: "Electronics",
-    price: 49.99,
+    price: 199.99,
     rating: 4.7,
-    reviews: 15234,
-    image: "https://m.media-amazon.com/images/I/71W2eDGsAJL._AC_SX679_.jpg",
-    link: "",
-    description: "Smart speaker with Alexa featuring vibrant sound, voice control, and seamless smart home integration",
+    reviews: 28542,
+    image: "https://m.media-amazon.com/images/I/71BRtVq+uWL._AC_SL1500_.jpg",
+    link: "https://www.amazon.com/dp/B0FBHDQ94L?th=1&linkCode=ll1&tag=marketplaza0b-20&linkId=4cd3efdb787ed10d584a3acabde6d449&language=en_US&ref_=as_li_ss_tl",
+    description:
+      "Premium smart speaker with immersive, room-filling sound, spatial audio processing, and Alexa voice control for the ultimate listening experience",
   },
   {
     id: 2,

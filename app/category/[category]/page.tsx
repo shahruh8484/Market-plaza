@@ -10,14 +10,15 @@ const products = [
   // Electronics
   {
     id: 1,
-    name: "Like-New Echo Dot (5th Gen, 2022 release)",
+    name: "Amazon Echo Studio",
     category: "Electronics",
-    price: 49.99,
+    price: 199.99,
     rating: 4.7,
-    reviews: 15234,
-    image: "https://m.media-amazon.com/images/I/71W2eDGsAJL._AC_SX679_.jpg",
-    link: "",
-    description: "Smart speaker with Alexa featuring vibrant sound, voice control, and seamless smart home integration",
+    reviews: 28542,
+    image: "https://m.media-amazon.com/images/I/71BRtVq+uWL._AC_SL1500_.jpg",
+    link: "https://www.amazon.com/dp/B0FBHDQ94L?th=1&linkCode=ll1&tag=marketplaza0b-20&linkId=4cd3efdb787ed10d584a3acabde6d449&language=en_US&ref_=as_li_ss_tl",
+    description:
+      "Premium smart speaker with immersive, room-filling sound, spatial audio processing, and Alexa voice control for the ultimate listening experience",
   },
   {
     id: 2,
@@ -126,7 +127,7 @@ const products = [
     rating: 4.7,
     reviews: 34567,
     image: "https://m.media-amazon.com/images/I/71ybuaqVLwL._AC_SX679_.jpg",
-    link: "https://www.amazon.com/Shark-Navigator-Professional-Anti-Allergy-NV360/dp/B00JH98GR4?&linkCode=ll1&tag=marketplaza0b-20&linkId=abcdef1234567890abcdef12345&language=en_US&ref_=as_li_ss_tl",
+    link: "https://www.amazon.com/Shark-Navigator-Professional-Anti-Allergy-NV360/dp/B00JH98GR4?&linkCode=ll1&tag=marketplaza0b-20&linkId=abcdef6789012345abcdef67890&language=en_US&ref_=as_li_ss_tl",
     description:
       "Professional upright vacuum with anti-allergy seal, HEPA filter, and swivel steering for easy maneuverability",
   },
@@ -151,7 +152,7 @@ const products = [
     rating: 4.5,
     reviews: 89234,
     image: "https://m.media-amazon.com/images/I/61eH32lVpdL._SX522_.jpg",
-    link: "https://www.amazon.com/Ordinary-Hyaluronic-Acid-2-30ml/dp/B01MYEZPC8?&linkCode=ll1&tag=marketplaza0b-20&linkId=abcdef1234567890abcdef12345&language=en_US&ref_=as_li_ss_tl",
+    link: "https://www.amazon.com/Ordinary-Hyaluronic-Acid-2-30ml/dp/B01MYEZPC8?&linkCode=ll1&tag=marketplaza0b-20&linkId=abcdef6789012345abcdef67890&language=en_US&ref_=as_li_ss_tl",
     description: "Lightweight hydration serum with multiple weights of hyaluronic acid for deep moisture retention",
   },
   {
@@ -174,7 +175,7 @@ const products = [
     rating: 4.6,
     reviews: 34567,
     image: "https://m.media-amazon.com/images/I/61n1krgI+tL._SX466_.jpg",
-    link: "https://www.amazon.com/Mielle-Rosemary-Mint-Scalp-Strengthening/dp/B07N7PK9QK?&linkCode=ll1&tag=marketplaza0b-20&linkId=abcdef1234567890abcdef12345&language=en_US&ref_=as_li_ss_tl",
+    link: "https://www.amazon.com/Mielle-Rosemary-Mint-Scalp-Strengthening/dp/B07N7PK9QK?&linkCode=ll1&tag=marketplaza0b-20&linkId=abcdef6789012345abcdef67890&language=en_US&ref_=as_li_ss_tl",
     description: "Nourishing scalp oil with biotin and rosemary to strengthen hair and promote healthy growth",
   },
   {
@@ -198,7 +199,7 @@ const products = [
     rating: 4.6,
     reviews: 45678,
     image: "https://m.media-amazon.com/images/I/71QyRZzbaUL._AC_SX569_.jpg",
-    link: "https://www.amazon.com/Hanes-Full-zip-Eco-smart-athletic-sweatshirts/dp/B00JUM4CT4?&linkCode=ll1&tag=marketplaza0b-20&linkId=abcdef1234567890abcdef12345&language=en_US&ref_=as_li_ss_tl",
+    link: "https://www.amazon.com/Hanes-Full-zip-Eco-smart-athletic-sweatshirts/dp/B00JUM4CT4?&linkCode=ll1&tag=marketplaza0b-20&linkId=abcdef6789012345abcdef67890&language=en_US&ref_=as_li_ss_tl",
     description: "Full-zip eco-smart hoodie with kangaroo pocket, perfect for layering and athletic activities",
   },
   {
